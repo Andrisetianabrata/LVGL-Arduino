@@ -1,8 +1,3 @@
-// SquareLine LVGL GENERATED FILE
-// EDITOR VERSION: SquareLine Studio 1.1.1
-// LVGL VERSION: 8.3.3
-// PROJECT: my_ui
-
 #ifndef _MY_UI_UI_H
 #define _MY_UI_UI_H
 
