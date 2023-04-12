@@ -69,6 +69,7 @@ lv_obj_t *root_page;
 lv_obj_t *kb;
 lv_obj_t *menu;
 lv_disp_t *dispp;
+
 class LGFX : public lgfx::LGFX_Device
 {
   lgfx::Panel_ILI9488 _panel_instance;
