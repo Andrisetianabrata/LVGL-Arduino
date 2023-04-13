@@ -23,3 +23,15 @@ Berikut intruksi untuk mengubah pin dan type dari layar tft:
   ```
   dan untuk menubah pin nya di setiap constructor terdapat class `cs miso mosi ck dc` untuk setiap panel dari touch screen lcd dan backlight berada dalam class tersebut.
   
+## Cara meng-install PlatformIO di Visual Studio Code
+
+Untuk menggunakan project ini anda harus menggunakan PlatformIO. PlatformIO adalah platform pengembangan perangkat keras (hardware) dan perangkat lunak (software) sumber terbuka yang menyediakan lingkungan pengembangan terpadu (IDE) untuk memprogram mikrokontroler, mikroprosesor, dan sistem terbenam (embedded systems) dengan dukungan untuk berbagai papan pengembangan, bahasa pemrograman, dan integrasi dengan alat pengembangan lainnya.
+berikut langkah-langkah untuk menggunakan PlatformIO
+1. Buka VS Code lalu masuk ke halaman Extensions pada bilah tab sebelah kiri. Atau anda juga dapat menggunakan shortcut `Ctrl+Shift+X`, cari di bilah pencarian dengan keyword `PlatformIO` lalu install.
+![Instal Extensions PlatformIO pada VS Code kalian](media/Screenshot%20(16).png)
+2. Setelah penginstalan selesai nanti bakalan otomatis masuk ke halaman Home `PlatformIO`, click `Open Project`.
+   ![PlatformIO](media/Screenshot%20(17).png)
+3. Setelah membuka project maka tampilan nya berubah seperti ini.
+   ![Opened Project](media/Screenshot%20(19).png)
+4. Untuk mengetahui program utama anda hanya perlu pergi ke folde `src/main.cpp`.
+   ![main.cpp](media/Screenshot%20(18).png)
