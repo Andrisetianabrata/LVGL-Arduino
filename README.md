@@ -1,4 +1,4 @@
-# LVGL dan FreeRTOS monitoring cuaca dan jadwan sholat
+# LVGL dan FreeRTOS monitoring cuaca dan jadwal sholat
 
 ## Deskripsi
 GUI dengan `LVGL` dan `FreeRTOS` untuk Monitoring _Cuaca_ dari API `https://openweathermap.org/`
