@@ -13,11 +13,11 @@ Berikut adalah fitur yang sudah selesai dan belum selesai:
 
 ## Untuk mengubah pin dan type dari LCD TFT
 Berikut intruksi untuk mengubah pin dan type dari layar tft:
-  1. Di dalam file `tft.ino` di baris **73** terdapat `class` 
+  1. Di dalam file `src/main.cpp` di baris **73** terdapat `class` 
    ```cpp 
    class LGFX : public lgfx::LGFX_Device
    ```
-  unutk mengubah dengan jenis panel anda hanya perlu mengubahnya di baris **75** contoh:
+  unutk mengubah dengan jenis panel anda hanya perlu mengubahnya di baris **74** contoh:
   ```cpp
   lgfx::Panel_ST7796 _panel_instance;
   ```
